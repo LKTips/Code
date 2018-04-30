@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	text-align: center;
+	font-family: 'Muli', Helvetica, Arial, sans-serif;
+	font-size: 140%;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Ovo', sans-serif;
+}
+h1 {
+	font-size: 200%;
+}
+
+.button {
+	background-color:#F12525;
+	-moz-border-radius:21px;
+	-webkit-border-radius:21px;
+	border-radius:21px;
+	border:1px solid #CB2308;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:18px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #F12417;
+
+}
+.button:hover {
+	background-color:#DA1919;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+label {
+	display: block;
+}
+input.text {
+	border-style:solid;
+	font-size:24px;
+	box-shadow: 3px 2px 5px 0px rgba(42,42,42,.75);
+	padding:5px;
+	border-width:1px;
+	border-radius:1px;
+	border-color:#363636;
+	text-align: center;
+}
+
+textarea {
+	border-style:solid;
+	font-size:14px;
+	box-shadow: 3px 2px 5px 0px rgba(42,42,42,.75);
+	padding:5px;
+	border-width:1px;
+	border-radius:1px;
+	border-color:#363636;
+	text-align: left;
+}
+
+
+
+
+
+
+/* List Formatting */
+ul.quicklist {list-style-type: none; text-align: left; margin: 0px; padding: 0px; font-size: 24px;}
+ul.quicklist li {padding: 0px 0px 14px 0px; margin: 0px 0px 14px 0px; border-bottom: 1px solid #ccc; }
+ul.quicklist li a {
+	display: block;
+	text-decoration: none;
+	background-size: contain;
+	padding: 12px 72px;
+}
+ul.quicklist li a:hover {
+	background-color: #f1f1f1;
+}
+
+
+.image {
+	max-width: 70%;
+	height: auto;
+}
+
+/* Button States */
+a.state0 {
+	color: #000;
+	background: #fff url("images/tick0.png") no-repeat left top;
+}
+a.state1, a.state0.done {
+	color: #CCC;
+	text-decoration:line-through !important;
+	background: #fff url("images/tick1.png") no-repeat left top;
+	background-size: contain;
+	
+}
+
+#ask {font-size: 80%; font-style: italic; }
+
+
+
+
+
+
+
+
+
+
