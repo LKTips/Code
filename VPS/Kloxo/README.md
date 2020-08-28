@@ -1,4 +1,4 @@
-Kloxo-MR Easy Install
+Kloxo-MR Easy Install 
 ============================================
 
        wget https://code.lktips.com/VPS/Kloxo/kloxo-install.sh --no-check-certificate
