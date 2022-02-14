@@ -12,4 +12,4 @@ yum update mratwork-* -y
 yum install kloxomr7 -y
 sh /script/upcp
 
-read -p "Install done! Reboot VPS once done!"
+read -p "Install done! Reboot VPS once done!" 
